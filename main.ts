@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    strip.showColor(neopixel.colors(NeoPixelColors.Red))
+    strip.clear()
     strip.range(0, 2).showColor(neopixel.colors(NeoPixelColors.Blue))
 })
 input.onButtonPressed(Button.B, function () {
